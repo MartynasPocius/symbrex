@@ -1,0 +1,46 @@
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'DM Sans';
+  }
+  
+  .dropzone {
+    border: 2px dashed #cccccc;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .dropzone.active {
+    border-color: #2196f3;
+    background-color: #e3f2fd;
+  }
+  
+  .dropzone p {
+    margin: 0;
+    font-size: 16px;
+    color: #666666;
+  }
+
+  .blob__container{
+    position: absolute;
+    top: 6%; /* To account for the header */
+    left: 0;
+    width: 100%;
+    height: 94%; /* To fill the rest of the space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    z-index: 1; /* Above the viewer but below the input */
+}
+.blob-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+}

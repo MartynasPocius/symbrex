@@ -1,0 +1,98 @@
+.main-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'DM Sans';
+  }
+  
+  .supplier-list {
+    width: 20%;
+    background-color: #52CBFF;
+    padding: 20px;
+    overflow-y: auto;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  .supplier-list h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  .supplier-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .supplier-list li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .supplier-list li:hover {
+    background-color: #5fcfff;
+    border-radius: 10px;
+  }
+  
+  .supplier-list li.selected {
+    background-color: #89dcff;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  .supplier-details {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .details-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .risk-scores {
+    margin: 20px 0;
+  }
+  
+  .score {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .score span {
+    width: 100px;
+  }
+  
+  .score-bar {
+    height: 20px;
+    background-color: #4CAF50;
+    margin: 0 10px;
+  }
+  
+  .alt-suppliers ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+
+  .alt-suppliers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .alt-supplier-box {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .alt-supplier-box:hover {
+    background-color: #e0e0e0;
+  }

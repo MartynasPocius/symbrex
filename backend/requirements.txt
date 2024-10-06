@@ -1,0 +1,8 @@
+Flask
+flask-cors
+anthropic
+earthengine-api
+requests
+matplotlib
+Pillow
+pandas
