@@ -1,5 +1,7 @@
 # Symbrex
 
+![rsz_skywatch_ss_ps_20190912t1319_tile_0_0_ohjuabhc_visual-ezgif com-webp-to-jpg-converter](https://github.com/user-attachments/assets/c9bccb14-9d6a-41fd-8d0a-700212c68bc7)
+
 Healthcare supply chain risk management platform. Symbrex utilises hospital usage data (medical equipment usage log) and enhances it with additional metrics (market sentiment, satellite imagery) to provide risk estimates for each hospital supplier, therefore, informing procurement specialist of any potential disruption days in advance. In case of disruption, it also suggest some alternative vendors from NHS-database that are able to supply with the same medical equipment.
 
 ## Data
