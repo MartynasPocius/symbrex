@@ -75,7 +75,7 @@ def analyse_docs(file_path, leads_file):
         explanation = final_response['explanation']
         
         alt_suppliers = ''
-        if risk > 0.7:
+        if risk > 7:
             alt_suppliers = leads_file[str(item)]
 
         entry = {"supplier": supplier, "item": item, "description": description, "activity": activity, "confidence": confidence, "risk": risk, "explanation": explanation, "alt_suppliers": alt_suppliers}
