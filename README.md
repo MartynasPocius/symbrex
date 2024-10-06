@@ -1,4 +1,4 @@
-# Symbrex
+# Symbrex - Hospital Supply Risk Management
 
 ![rsz_skywatch_ss_ps_20190912t1319_tile_0_0_ohjuabhc_visual-ezgif com-webp-to-jpg-converter](https://github.com/user-attachments/assets/c9bccb14-9d6a-41fd-8d0a-700212c68bc7)
 
